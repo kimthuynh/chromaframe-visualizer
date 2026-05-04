@@ -1,0 +1,41 @@
+.instruction-bar {
+  position: fixed;
+  top: 52px;
+  left: 0;
+  right: 0;
+  z-index: 190;
+  height: 34px;
+  display: flex;
+  align-items: center;
+  padding: 0 1.25rem;
+  background: #130a38;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  gap: 0.75rem;
+}
+
+.instruction-text {
+  flex: 1;
+  font-size: 0.75rem;
+  color: rgba(255, 255, 255, 0.55);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin: 0;
+}
+
+.instruction-dismiss {
+  flex-shrink: 0;
+  background: none;
+  border: none;
+  color: rgba(255, 255, 255, 0.4);
+  cursor: pointer;
+  font-size: 0.8rem;
+  line-height: 1;
+  padding: 0.2rem 0.3rem;
+  border-radius: 3px;
+  transition: color 0.15s;
+}
+
+.instruction-dismiss:hover {
+  color: rgba(255, 255, 255, 0.85);
+}

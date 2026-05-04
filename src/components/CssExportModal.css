@@ -1,0 +1,95 @@
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.65);
+  z-index: 900;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.modal-box {
+  background: #12102a;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  width: 580px;
+  max-width: 100%;
+  max-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 24px 72px rgba(0, 0, 0, 0.5);
+}
+
+.modal-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 1.25rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  flex-shrink: 0;
+}
+
+.modal-title {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #ffffff;
+  letter-spacing: 0.01em;
+}
+
+.modal-close {
+  background: none;
+  border: none;
+  color: rgba(255, 255, 255, 0.45);
+  font-size: 1rem;
+  cursor: pointer;
+  padding: 0.2rem 0.35rem;
+  border-radius: 4px;
+  transition: color 0.15s;
+  line-height: 1;
+}
+
+.modal-close:hover {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.modal-css {
+  flex: 1;
+  overflow: auto;
+  padding: 1.25rem;
+  font-family: 'Courier New', Consolas, monospace;
+  font-size: 0.8rem;
+  line-height: 1.65;
+  color: #b8d0f0;
+  margin: 0;
+  white-space: pre;
+  min-height: 0;
+}
+
+.modal-footer {
+  padding: 0.875rem 1.25rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  display: flex;
+  justify-content: flex-end;
+  flex-shrink: 0;
+}
+
+.modal-copy-btn {
+  background: var(--cf-primary, #1d2965);
+  color: #ffffff;
+  border: none;
+  border-radius: 7px;
+  padding: 0.55rem 1.25rem;
+  font-size: 0.88rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+
+.modal-copy-btn:hover {
+  opacity: 0.85;
+}
+
+.modal-copy-btn--done {
+  background: #065f46;
+}
