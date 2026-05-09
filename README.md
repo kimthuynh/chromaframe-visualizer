@@ -2,7 +2,7 @@
 
 A live color palette visualizer for designers and developers. Pick a set of brand colors and instantly see them applied to realistic UI templates — no guesswork, no waiting.
 
-**[→ Open Chroma Frame](https://kimthuynh28.github.io/chromaframe/)**
+**[→ Open Chroma Frame]([https://kimthuynh.github.io/chromaframe-visualizer])**
 
 ---
 
